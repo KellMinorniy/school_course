@@ -21,8 +21,14 @@ body {
 }
 
 .navbar.sticky-top {
-    backdrop-filter: blur(20px);
-    background-color:  rgba(5, 13, 29, 0.4);
+    background-color:  #050D1D;
+}
+
+@supports (backdrop-filter: blur(20px)) {
+    .navbar.sticky-top {
+        backdrop-filter: blur(20px);
+        background-color:  rgba(5, 13, 29, 0.4);
+    }
 }
 
 .navbar-nav {
