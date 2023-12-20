@@ -16,6 +16,23 @@ body {
     --mute-color: #8974A9;
 }
 
+* {
+    scrollbar-color: var(--mute-color), var(--contrast-color);
+    scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+    background-color: var(--contrast-color);
+    width: 6px;
+    height: 6px;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--mute-color);
+}
+
+
 .navbar-brand {
     font-weight: bold;
 }
