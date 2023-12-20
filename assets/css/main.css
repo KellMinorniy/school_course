@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Roboto:ital,wght@0,500;1,300;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: #140825;
+    color: white;
+}
+
+:root {
+    --main-color: #FF6230;
+    --contrast-color: ;
+    --link-color: #fff;
+    --blck-color: #1B0C32;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav {
+    width: 60%;
+}
+
+.btn-nav {
+    color: var(--link-color);
+    border-color: var(--main-color) !important;
+}
+
+nav {
+    border-bottom: solid #36264E 0.5px;
+}
+
+/* main */
+
+.polygon {
+    width: 90%;
+}
+
+
+
+.left-head > p{
+    color: #8974A9;
+}
+
+.left-head > h1 {
+    font-size: 50px;
+}
+
+.left-head > button {
+    background-color: var(--main-color);
+    color: black;
+    border: none;
+}
+
+
+@media(min-width:100px) and (max-width:992px){
+
+.header {
+    display: flex;
+    justify-content: space-between !important;
+}    
+
+.navbar-nav {
+    width: 100%;
+}
+
+.left-head > h1 {
+    font-size: 40px;
+}
+
+.polygon {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.left-head {
+    width: 100% !important;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+}
+
