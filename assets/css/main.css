@@ -2,19 +2,27 @@
 
 body {
     font-family: 'Manrope', sans-serif;
-    background-color: #140825;
+    background-color: var(--contrast-color);
     color: white;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 :root {
     --main-color: #FF6230;
-    --contrast-color: ;
+    --contrast-color: #050D1D;
     --link-color: #fff;
-    --blck-color: #1B0C32;
+    --blck-color: #0E182B;
+    --mute-color: #8974A9;
 }
 
 .navbar-brand {
     font-weight: bold;
+}
+
+.navbar.sticky-top {
+    backdrop-filter: blur(20px);
+    background-color:  rgba(5, 13, 29, 0.4);
 }
 
 .navbar-nav {
@@ -30,6 +38,12 @@ nav {
     border-bottom: solid #36264E 0.5px;
 }
 
+.nav-link:hover {
+    transform: translateY(3px);
+    border-bottom: var(--main-color) 0.5px solid;
+    transition: 0.4s;
+}
+
 /* main */
 
 .polygon {
@@ -39,14 +53,14 @@ nav {
 
 
 .left-head > p{
-    color: #8974A9;
+    color: var(--mute-color);
 }
 
 .left-head > h1 {
     font-size: 50px;
 }
 
-.left-head > button {
+.left-head > button, .left-head > button:hover {
     background-color: var(--main-color);
     color: black;
     border: none;
@@ -60,6 +74,8 @@ nav {
     justify-content: space-between !important;
 }    
 
+
+
 .navbar-nav {
     width: 100%;
 }
@@ -69,17 +85,17 @@ nav {
 }
 
 .polygon {
-    width: 70%;
+    width: 100% !important;
     margin: 0 auto;
 }
 
 .left-head {
     width: 100% !important;
 }
-
-.image {
-    display: flex;
-    justify-content: center;
-}
 }
 
+/* about */
+
+.block {
+    background-color: var(--blck-color);
+}

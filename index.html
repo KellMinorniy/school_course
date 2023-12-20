@@ -1,65 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
 
-<body>
-
-    <nav class="navbar navbar-expand-lg d-flex" data-bs-theme="dark">
-        <div class="header container-fluid d-flex justify-content-around w-75">
-            <div class="logo">
-                <a class="navbar-brand text-bold d-flex align-items-center" href="#"><img src="assets/img/logo.png" alt="" class="me-2">Cource Shop</a>
-            </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav m-lg-auto me-auto mb-2 mb-lg-0 d-flex justify-content-around">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#main">Главная</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#price">Услуги</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Отзывы</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Контакты</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">О нас</a>
-                    </li>
-                </ul>
-                <div class="end">
-                    <button href="#" class="btn-nav btn btn-primary bg-transparent">Связаться</button>
-                </div>
-            </div>
+  <body>
+    <nav class="navbar navbar-expand-lg d-flex sticky-top" data-bs-theme="dark">
+      <div class="header container-fluid d-flex justify-content-around w-75">
+        <div class="logo">
+          <a class="navbar-brand text-bold d-flex align-items-center" href="#"
+            ><img src="assets/img/logo.png" alt="" class="me-2" />Cource Shop</a
+          >
         </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul
+            class="navbar-nav m-lg-auto me-auto mb-2 mb-lg-0 d-flex justify-content-around"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#main"
+                >Главная</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">О нас</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Контакты</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#price">Услуги</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Отзывы</a>
+            </li>
+          </ul>
+          <div class="end">
+            <button href="#" class="btn-nav btn btn-primary bg-transparent">
+              Связаться
+            </button>
+          </div>
+        </div>
+      </div>
     </nav>
     <main>
-        <div class="container m-auto">
-            <div
-                class="container d-flex flex-column flex-lg-row align-items-center justify-content-between w-100 mt-4 mt-lg-0 m-auto">
-                <div class="left-head w-50">
-                    <h1 class="w-100">Лучшая школа тут!</h1>
-                    <p class="w-100">Мы предлагаем доступ к качественному контенту от ведущих экспертов в своей области.
-                        Начните инвестировать в свое образование прямо сейчас и станьте лучшей версией себя!"</p>
-                    <button class="btn btn-primary">Начать</button>
-                </div>
-                    <img src="assets/img/Polygon.png" alt="" class="polygon w-50">
-            </div>
+      <div class="container m-auto">
+        <div
+          class="container d-flex flex-column flex-lg-row align-items-center justify-content-between w-100 mt-4 mt-lg-0 m-auto"
+          id="main"
+        >
+          <div class="left-head w-50">
+            <h1 class="w-100">Лучшая школа тут!</h1>
+            <p class="w-100">
+              Telegram - это про уникальность и востребованность Сейчас Telegram
+              самый востребованный источник трафика и заработка. На рынке
+              рекламы и услуг Telegram предоставляет огромный спектр
+              возможностей для заработка и роста для любого новичка.
+            </p>
+            <button class="btn btn-primary">Начать</button>
+          </div>
+          <img src="assets/img/Polygon.png" alt="" class="polygon w-50" />
         </div>
-    </main>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
 
+        <!-- About -->
+
+        <div class="container-fluid mt-4">
+          <h1 class="text-center font-bold">Course Shop - это</h1>
+          <div class="d-flex flex-column flex-md-row gap-4 mt-4">
+            <!-- item 1 -->
+            <div class="block d-flex col pt-3 ps-4 flex-column rounded">
+              <h3>Удобство</h3>
+              <p class="mt-4">
+                Покупатели могут приобрести обучающий контент в любое удобное
+                для них время, не выходя из дома. Это особенно удобно для
+                занятых людей, которым сложно найти время на поход в магазин.
+              </p>
+            </div>
+            <!-- item 2 -->
+            <div class="block d-flex col pt-3 ps-4 flex-column rounded">
+              <h3>Большой выбор</h3>
+              <p class="mt-4">
+                Интернет магазин может предложить широкий ассортимент обучающего
+                контента, включая видеокурсы, аудиокниги, электронные книги и
+                многое другое. Это позволяет покупателям выбирать то, что
+                соответствует их индивидуальным потребностям и интересам.
+              </p>
+            </div>
+          </div>
+
+          <div class="d-flex flex-column flex-md-row gap-4 mt-4">
+            <!-- item 3 -->
+            <div class="block d-flex col pt-3 ps-4 flex-column rounded">
+              <h3>Экономия времени и денег</h3>
+              <p class="mt-4">
+                Интернет магазин обучающего контента может предложить выгодные
+                цены и специальные предложения, что позволит покупателям
+                сэкономить деньги. Кроме того, они также сэкономят время,
+                которое обычно тратится на поездку в магазин.
+              </p>
+            </div>
+            <!-- item 4 -->
+            <div class="block d-flex col pt-3 ps-4 flex-column rounded">
+              <h3>Легкость осуществления покупки</h3>
+              <p class="mt-4">
+                Покупатели могут быстро и удобно совершить покупку обучающего
+                контента, совершив всего несколько кликов мышью. Также они могут
+                использовать различные способы оплаты, что делает процесс еще
+                более удобным.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
