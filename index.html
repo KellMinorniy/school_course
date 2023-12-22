@@ -41,13 +41,42 @@
                     </li>
                 </ul>
                 <div class="end">
-                    <button href="#" class="btn-nav btn btn-primary bg-transparent">
+                    <button href="#" class="btn-nav btn btn-primary bg-transparent" data-bs-toggle="modal" data-bs-target="#contactModal">
                         Связаться
-                    </button>
+                      </button>
                 </div>
             </div>
         </div>
     </nav>
+    <!-- modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-dark" id="contactModalLabel">Связаться</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="contactName" placeholder="Ваше имя" required>
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" id="contactEmail" placeholder="Эл.Почта/Телеграм" required>
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" id="contactMessage" rows="3" placeholder="Текст сообщения" required></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+          <button type="submit" class="btn btn-primary">Отправить</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Modal OKda? -->
     <main>
         <div class="container m-auto">
             <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-between w-100 mt-4 mt-lg-0 m-auto"
