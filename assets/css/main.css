@@ -113,6 +113,24 @@ nav {
 }
 }
 
+.modal-content {
+    background-color: var(--blck-color);
+}
+
+.form-control, .form-control:focus {
+    background: none;
+    border: solid 0.5px rgb(190, 189, 189);
+    outline: none;
+    color: white;
+    box-shadow: none;
+}
+
+
+
+.form-control::placeholder {
+    color: rgb(177, 165, 165);
+}
+
 /* about */
 
 .block {
