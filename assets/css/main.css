@@ -113,6 +113,7 @@ nav {
 }
 }
 
+/* modal */
 .modal-content {
     background-color: var(--blck-color);
 }
@@ -125,11 +126,11 @@ nav {
     box-shadow: none;
 }
 
-
-
 .form-control::placeholder {
     color: rgb(177, 165, 165);
 }
+
+/* end */
 
 /* about */
 
@@ -139,6 +140,14 @@ nav {
 
 /* contact */
 
-#contact {
+.link-end {
+    color: var(--link-color);
+    text-decoration: none;
+    font-size: larger;
+}
+
+.card {
     background-color: var(--blck-color);
+    border-radius: 15px;
+    color: var(--link-color);
 }
