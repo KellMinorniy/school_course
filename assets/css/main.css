@@ -118,3 +118,9 @@ nav {
 .block {
     background-color: var(--blck-color);
 }
+
+/* contact */
+
+#contact {
+    background-color: var(--blck-color);
+}
