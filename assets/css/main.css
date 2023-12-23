@@ -151,3 +151,9 @@ nav {
     border-radius: 15px;
     color: var(--link-color);
 }
+
+@media(max-width:768px) {
+    .card > button {
+        width: 100% !important;
+    }
+}
