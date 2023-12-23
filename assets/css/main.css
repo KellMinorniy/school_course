@@ -5,7 +5,6 @@ body {
     background-color: var(--contrast-color);
     color: white;
     margin: 0;
-    box-sizing: border-box;
 }
 
 :root {
@@ -19,6 +18,7 @@ body {
 * {
     scrollbar-color: var(--mute-color), var(--contrast-color);
     scrollbar-width: thin;
+    box-sizing: border-box;
 }
 
 ::-webkit-scrollbar {
@@ -151,6 +151,12 @@ nav {
     border-radius: 15px;
     color: var(--link-color);
 }
+
+.card > p {
+    color: var(--mute-color);
+}
+
+
 
 @media(max-width:768px) {
     .card > button {
